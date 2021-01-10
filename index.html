@@ -15,17 +15,25 @@
             <div class = "form-row">
                 <div class="form-group col-md-4">
                     <label for="size">Size:</label>
-                    <input type="text" class="form-control" id="size" placeholder="Your desired pizza size...">
+                    <input type="text" class="form-control" id="size" placeholder="Small, medium, large, extra-large...">
                 </div>
 
                 <div class="form-group col-md-4">
                     <label for="crust">Crust:</label>
-                    <input type="text" class="form-control" id="crust" placeholder="What type of crust would you like...">
+                    <input type="text" class="form-control" id="crust" placeholder="Thin, flatbread, thick, custom...">
                 </div>
 
-                <div class="form-group col-md-4">
-                    <label for="toppings">Toppings:</label>
-                    <input type="text" class="form-control" id="toppings" placeholder="Your toppings go here...">
+                <div class="form-group col-md-4">    
+                    <label class="toppings" for="toppings">Toppings:</label>
+                    <select class="custom-select" id="toppings">
+                        <option selected>Choose...</option>
+                        <option value="1">Pepporoni</option>
+                        <option value="2">Mushrooms</option>
+                        <option value="3">Extra-cheese</option>
+                        <option value="3">Bacon</option>
+                        <option value="3">Olives</option>
+                        <option value="3">Pineapple</option>
+                    </select>
                 </div>
             </div>
           </form>
