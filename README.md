@@ -21,8 +21,12 @@ Rose Okoth.
     `code .`
 ​
 # BDD
-* 
-​
+* User should be able to use the website to:
+    - View the various pies on offer.
+    - Choose the pizza(s), crust and topping(s) they want.
+    - See their total before checking out.
+    - Have the option to choose between picking their orders or having them delivered.
+
 # Technologies Used
 * HTML.
 * CSS.
