@@ -32,8 +32,31 @@ img {vertical-align: middle;}
     .text {font-size: 11px}
   }
 
+  .row {
+    margin: 8px -16px;
+  }
+      
+/* Add padding BETWEEN each column*/
+  .row,
+  .row > .column {
+    padding: 15px;
+  }
+      
+/* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+    
+/* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /* Body customizations */
 body {
-    background-image: url(assets/background-image.jpeg/) ;
-    color: gray;
+    background-color: rgba(19, 18, 18, 0.678);
+    color: rgb(233, 217, 217);
 }
