@@ -12,7 +12,7 @@ Rose Okoth.
 ​
 # Setup Instructions
 1. Clone the repo:
-    `git clone https://github.com/rose-okoth/SliceOfHeaven`
+    `git clone https://rose-okoth.github.io/SliceOfHeaven/`
 ​
 1. Switch into the directory:
     `cd SliceOfHeaven`
